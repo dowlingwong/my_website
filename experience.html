@@ -1,19 +1,30 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <h1><center>Electronics</center></h1>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="header" >
+    <h1>Courses</h1>
+    
+    
+  </div>
+
 <style>
+.header {
+  padding: 6px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 20px;
+}
+
 body {
   font-family: "Lato", sans-serif;
 }
 
 .sidenav {
-  width: 180px;
+  width: 15%;
   position: fixed;
   z-index: 1;
-  top: 20px;
+  top: 50px;
   left: 10px;
   background: #fbfbfc;
   overflow-x: hidden;
@@ -42,12 +53,25 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
 </style>
-</head>
+
 <body text="orange" bgcolor=#064579 style="margin:50px">
 
-<div class="sidenav">
-  <a href="index.html">Main page</a>
+<div class="sidenav" >
+    <a href="index.html">Main page</a>
     <a href="research.html">Research</a>
     <a href="courses.html">Courses taken</a>
     <a href="passioninterest.html">Passion&interest</a>
@@ -56,15 +80,24 @@ body {
     <a href="education.html">Education</a>
     <a href="experience.html">Experience</a>
 </div>
-
-<div class="main" style="font-family:courier;">
   
-  <img src="images/Dowling.jpg" align="left" height="256" width="366"  hspace="50">
-  <p >Hi, it's Dowling here. </p>
-  <p>A physics major, electronic enthusiast student from Brandeis University and Franklin W. Olin College of Engineering.</p>
-  <p>As a undergraduate student, I currently conduct research on experimental particle physics under Professor Aram Apyan.   </p>
- 
-</div>  
+  
 
+<table align="right" style="font-family:courier;">
+  <tr>
+    <th>Course title</th>
+    <th>Course name</th>
+    <th>instructor</th>
+    <th>term</th>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  
+</table>
 </body>
 </html> 
