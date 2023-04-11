@@ -3,15 +3,25 @@
 <html>
   <div class="header" >
     <h1>Electronics</h1>
-    <p style="font-family:courier;">A student from Brandeis, Olin and FermiLab.
-      <img src="logos/FNAL.jpeg" align="right" height="40" width="140"  hspace="10">
-      <img src="logos/olin.jpeg" align="right" height="40" width="60"  hspace="10">
-      <img src="logos/brandeis.png" align="right" height="40" width="70"  hspace="10">
-    </p>
+    
     
   </div>
 
 <style>
+#gallery {
+   line-height:0;
+   -webkit-column-count:2; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:2;
+   -moz-column-gap:5px;
+   column-count:2;
+   column-gap:5px;
+}
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+}
 .header {
   padding: 6px;
   text-align: center;
@@ -48,7 +58,7 @@ body {
 }
 
 .main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  margin-left: 165px; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -60,7 +70,8 @@ body {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
+  font-size: 25px;
 }
 
 td, th {
@@ -78,21 +89,153 @@ td, th {
   <a href="index.html">Main page</a>
   <a href="research.html">Research</a>
   <a href="courses.html">Courses taken</a>
-  <a href="passioninterest.html">Passion&interest</a>
-  <a href="#Electronic and computer engineering">ECE projects</a>
+  <a href="passion.html">Passion&interest</a>
+  <a href="electronic.html">ECE projects</a>
   <a href="linux.html">Linux study</a>
   <a href="education.html">Education</a>
   <a href="experience.html">Experience</a>
   
 </div>
 
-<div class="main" style="font-family:courier;">
+<div class="main" style="font-family:courier;" >
   
-  <img src="images/Dowling.jpg" height="256" width="400"  class="center">
-  <p >Hi, it's Dowling here. </p>
+  <img src="images/Dowling.jpg" align="left" height="256" width="34%"  hspace="50">
+    <p >ECE here is the abbreviation for Electrical computer engineering. This term has meanings
+       for both program I studying at olin college and my hobby in everyday life.
+    </p>
+
+    <p>
+      Since 2019, I have been an enthusiast for both electronics and linux for 4 years. 
+      Accumulated some skill and precious memory on these stuff.
+      For the degree sense, I'm chasing Electrical and Computer Engineering  ABET-accredited degree at 
+      Franklin.W.Olin College of Engineering. It's fun and take my skill to professional level.
+    </p>
+    <p>
+      Below is the list for my projects and gallary of playing with electronics, most of them are mini projects that I made for fun, 
+      while the others are courseworks at Olin College. 
+    </p>
+    <table align="right" style="font-family:courier;">
+      <tr>
+        <th>Project name</th>
+        <th>Partner</th>
+        <th>instructor</th>
+        <td>Status</td>
+      </tr>
+     
+      <tr>
+        <td>Python package and module for DarkQuest</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Ongoing</td>
+      </tr>
+
+      <tr>
+        <td>Digital camera based on Rp2040</td>
+        <td>Zachary Sherman</td>
+        <td>Bradley Minch</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Integrated Rover</td>
+        <td>Satchel Sevenau</td>
+        <td>Melinda, Kene, Brad, Amon </td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Auto-sync digital clock based on esp32</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Particle decay distance calculator</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Python based CCTV server</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Ongoing</td>
+      </tr>
+
+      <tr>
+        <td>ESP32 webcam with face recognition</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>iPad connected home server</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Dowling pi pico based on RP2040</td>
+        <td>/</td>
+        <td>Bradley Minch</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Arduino LCD display w/ control</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>Raspberry Pi LCD display w/ control</td>
+        <td>/</td>
+        <td>/</td>
+        <td>Complete</td>
+      </tr>
+
+      <tr>
+        <td>NAS based on ThinkPad x201i(upgrade + docking station)</td>
+        <td>/</td>
+        <td>/</td>
+        <td>complete</td>
+      </tr>
+    </table>
+
+    
+</div>  
+
+<div id="gallery">
+  <img src="images/electronic/0cf105a28l4fbdd4075cbe79cfa32b2b.JPG">
+  <img src="images/electronic/155c9e83du95a15f23ff31c04f112717.jpg">
+  <img src="images/electronic/1865e5933m164a6a8bee0902d343011f.jpg">
+  <img src="images/electronic/222db57e6m857730dc1ddfdb6ddb5ccb.JPG">
+  <img src="images/electronic/30d51b515m14f8cf568caf283c2aa93c.JPG">
+  <img src="images/electronic/43434990cmb82814b976b74f16cde4b7.JPG">
+  <img src="images/electronic/4418fa527h3123409d61f643634b634d.JPG">
+  <img src="images/electronic/4aede6185k6984f73ffbc2799aad00d4.JPG">
+  <img src="images/electronic/542a74176j49d9f1a50900f7b05167b2.jpg">
+  <img src="images/electronic/61382799erc65f09d19b2695899078d3.jpg">
+  <img src="images/electronic/65aacaf24i90cb2363756d5f5d5b2753.JPG">
+  <img src="images/electronic/955c53604nb064819be97691af4fae30.JPG">
+  <img src="images/electronic/a5aad026fu472db57e2ada36d7c91137.jpg">
+  <img src="images/electronic/af0001378sb0c0efca6e63010e614dcb.JPG">
+  <img src="images/electronic/b4be83b9frf7982b0110c4994e24e22f.jpg">
+  <img src="images/electronic/c54a66cc2v77f6a13eb216db683a3095.jpg">
+  <img src="images/electronic/fe77f5ffbl7dd3d5edf096eebb54356e.JPG">
+  <img src="images/electronic/IMG_3005.jpg">
+  <img src="images/electronic/IMG_3025.jpg">
+  <img src="images/electronic/IMG_3034.jpg">
+  
   
  
-</div>  
+ </div>
+
 
 
 </body>
