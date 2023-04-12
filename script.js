@@ -1,17 +1,3 @@
-// geting canvas by Boujjou Achraf
-
-var i = 0;
-var txt = 'Lorem ipsum typing effect!'; /* The text */
-var speed = 50; /* The speed/duration of the effect in milliseconds */
-
-function typeWriter() {
-  if (i < txt.length) {
-    document.getElementById("demo").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-
         var c = document.getElementById("c");
         var ctx = c.getContext("2d");
 
@@ -20,7 +6,7 @@ function typeWriter() {
         c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
-        var matrix = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789@#$%^&*()*&^%+-/~{[|`]}";
+        var matrix = "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 
@@ -41,7 +27,7 @@ function typeWriter() {
             ctx.fillStyle = "rgba(0, 0, 0, 0.04)";
             ctx.fillRect(0, 0, c.width, c.height);
 
-            ctx.fillStyle = "#f4427d";//green text
+            ctx.fillStyle = "#FFA500";//green text
             ctx.font = font_size + "px arial";
             //looping over drops
             for(var i = 0; i < drops.length; i++)
@@ -62,5 +48,4 @@ function typeWriter() {
         }
         
         setInterval(draw, 35);
-        typeWriter()
         
