@@ -1,6 +1,15 @@
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CodePen - Matrix Background 2019</title>
+    <link rel="stylesheet" href="./style.css">
+    <canvas id="c"></canvas>
+    <script  src="./script.js"></script>
+    
+  
+  </head>
   <div class="header" >
     <h1>Dowling Wong</h1>
     <p style="font-family:courier;">A student from Brandeis, Olin and FermiLab.
@@ -15,9 +24,13 @@
 .header {
   padding: 6px;
   text-align: center;
-  background: #1abc9c;
+  background: #064579;
   color: white;
   font-size: 20px;
+  position: fixed;
+  top: 50px;
+  left: 15%;
+  width: 84%;
 }
 
 body {
@@ -44,11 +57,11 @@ body {
 }
 
 .sidenav a:hover {
-  color: #064579;
+  color:#064579;
 }
 
 .main {
-  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  margin-left: 15%; /* Same width as the sidebar + left position in px */
   font-size: 28px; /* Increased text to enable scrolling */
   padding: 0px 10px;
 }
@@ -60,7 +73,7 @@ body {
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 80%;
+  width: 85%;
 }
 
 td, th {
@@ -72,7 +85,7 @@ td, th {
 
 </style>
 
-<body text="orange" bgcolor=#064579 style="margin:50px">
+<body text="orange" bgcolor=black style="margin:50px">
 
 <div class="sidenav" >
   <a href="index.html">Main page</a>
