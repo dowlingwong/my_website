@@ -6,7 +6,7 @@
         c.width = window.innerWidth;
 
         //chinese characters - taken from the unicode charset
-        var matrix = "アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン";
+        var matrix = "小型的雲系統透過一部 i5 的個人電腦使用了具有容錯的 RAID10 磁碟安裝了 RockyLinux 8.5裝上了虛擬化環境還有一些作業系統優化的動作處理處理！底層系統應該要稍微強壯一些";
         //converting the string into an array of single characters
         matrix = matrix.split("");
 
